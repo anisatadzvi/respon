@@ -1,54 +1,28 @@
-# CodeIgniter 4 Framework
+# RESPON (Restoran Pontianak)
+WebGIS Persebaran Titik Restoran Terbaik di Kota Pontianak.
 
-## What is CodeIgniter?
+## Deskripsi Produk
+RESPON (Restoran Pontianak) adalah website berbasis GIS yang memberikan informasi persebaran titik restoran yang ada di Kota Pontianak. WebGIS ini memiliki beberapa fitur yaitu sebagai berikut:
+1. Halaman beranda.
+2. Halaman sign-in dan log-in.
+3. Tambah data.
+4. Peta interaktif dengan marker informasi berupa pop-up untuk menampilkan nama restoran, gambar restoran, dan jam operasional serta rute perjalanan.
+5. Tabel daftar restoran dilengkapi dengan informasi mengenai nama restoran, alamat, informasi latitude longitude, foto, dan fitur edit hapus data.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+RESPON memiliki manfaat bagi wisatawan lokal maupun dari luar Kota Pontianak untuk mendapatkan informasi mengenai restoran terbaik .
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Komponen Pembangun Produk
+1. CodeIgniter
+2. HTML, PHP, JS
+3. Leaflet JS
+4. PostgreSQL
+5. Font Awesome 5
+6. GitHub Pages
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Sumber Data
+1. Data Koordinat Google Maps
+2. Data Alamat
+3. Data Jam Operasional
+4. Gambar Google
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## Tampilan Aplikasi
