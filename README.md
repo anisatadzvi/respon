@@ -25,4 +25,20 @@ RESPON memiliki manfaat bagi wisatawan lokal maupun dari luar Kota Pontianak unt
 3. Data Jam Operasional
 4. Gambar Google
 
-## Tampilan Aplikasi
+## Tampilan WebGIS RESPON
+**BERANDA**
+
+![image (2)](https://github.com/anisatadzvi/respon/assets/88225607/9978a1ef-6164-4799-a27c-ea3104be6bbe)
+
+**RUTE**
+
+<img width="960" alt="Screenshot 2023-06-06 223836" src="https://github.com/anisatadzvi/respon/assets/88225607/ed1b8106-a9ff-40d2-b1b0-0b8898c2fd01">
+
+**POP-UP**
+
+![image (3)](https://github.com/anisatadzvi/respon/assets/88225607/5b2fd029-726f-424e-a1aa-8eeb0ce4969f)
+
+**TABEL**
+
+![image (4)](https://github.com/anisatadzvi/respon/assets/88225607/0a94f7a2-2912-4194-ba16-cdb874e2054c)
+
